@@ -1,0 +1,48 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+*service-account*.json
+voice_settings.json
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Downloaded inference assets
+models/
+vosk-model*/
+*.onnx
+*.bin
+*.pt
+*.pth
+*.tflite
+# Private runtime data, diagnostics and backups
+.tmp/
+verification/
+logs/
+recordings/
+screenshots/
+*.log
+*.jsonl
+*.sqlite*
+*.db
+stars_usage.json
+*.wav
+*.mp3
+*.flac
+*.pcm
+*.png
+*.jpg
+*.jpeg
+*.zip
+*.part
+*.before_*.py
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

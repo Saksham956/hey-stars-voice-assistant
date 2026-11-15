@@ -1,0 +1,7 @@
+google-genai>=2.33.0
+mss
+Pillow
+sounddevice
+numpy
+pystray
+vosk
